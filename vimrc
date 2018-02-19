@@ -116,9 +116,9 @@ set display+=lastline
 inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
-if has('mouse')
-  set mouse=a
-endif
+"if has('mouse')
+"  set mouse=a
+"endif
 
 " If linux then set ttymouse
 let s:uname = system("echo -n \"$(uname)\"")
@@ -180,6 +180,9 @@ let g:solarized_termtrans=1
 colorscheme solarized
 set guifont=Inconsolata:h15
 set guioptions-=L
+
+" Setting up for mac clipboard coping
+set clipboard=unnamed
 
 " This comes first, because we have mappings that depend on leader
 " With a map leader it's possible to do extra key combinations
