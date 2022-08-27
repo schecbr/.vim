@@ -82,3 +82,6 @@
 [submodule "bundle/vim-pug"]
 	path = bundle/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
+[submodule "bundle/vim-rego"]
+	path = bundle/vim-rego
+	url = https://github.com/tsandall/vim-rego.git
